@@ -132,9 +132,9 @@ body{
     top: 0;
     width: 100%;
     left: 0;
+    text-align: center;
 }
 .introduce-title{
-    text-align: center;
     font-size: 4rem;
     font-weight: 600;
 }
@@ -246,7 +246,7 @@ body{
 
 #footer{
     height: 600px;
-    background-image: url("/image/bg_footer.jpg");
+    background-image: url("https://photo-mekongasean.epicdn.me/w950/Uploaded/2023/aolthuo/2022_05_14/x2-2670.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
