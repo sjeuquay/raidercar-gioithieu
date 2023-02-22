@@ -515,3 +515,31 @@ body{
     top: -10px;
     left: 200px;
 }
+.buy_car-button{
+    width: 100%;
+    height: 50px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 7px;
+ }
+ .buy_car-button-link{
+     color: #000000;
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: 900;
+     font-family: var(--text-font);
+ }
+
+ .buy_car-button:hover{
+    background-color: #5CE1E6;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+ }
+ .buy_car-button:hover .buy_car-button-link{
+   color: #ffff;
+   font-size: 19px;
+   transition: all 0.2s ease-in;
+ }
